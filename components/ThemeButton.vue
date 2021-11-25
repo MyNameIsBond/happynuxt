@@ -1,30 +1,33 @@
 <template>
-  <button v-on:click="themer">
-    <Sun />
+  <button v-on:click="increment">
+    <System v-if="(counter = 0)" />
+    <Sun v-else-if="(counter = 1)" />
   </button>
 </template>
 
 <script>
+import System from "../assets/system.svg?inline";
 import Sun from "../assets/sun.svg?inline";
+import Moon from "../assets/moon.svg?inline";
 export default {
-  components: { Sun },
-  data: {
-    counter: 0,
-    theme: ["system", "light", "dark"],
+  components: { Sun, Moon, System },
+  data() {
+    return {
+      counter: 0,
+      theme: ["system", "light", "dark"],
+    };
+  },
+  watch: {
+    counter: function () {
+      this.$colorMode.preference = this.theme[this.counter];
+    },
   },
   methods: {
-    themer() {
-      this.$colorMode.preference = this.theme[this.counter];
-      this.increment();
-      console.log(this.counter);
-      return;
-    },
-    increment() {
-      console.log(this.counter);
-      if (this.counter <= 3) {
+    increment: function () {
+      if (this.counter >= 3) {
         return (this.counter = 0);
       } else {
-        return this.counter++;
+        return (this.counter += 1);
       }
     },
   },
