@@ -11,23 +11,35 @@
         pointer-events-none
       "
     >
-      <Search class="h-3" />
+      <search class="h-3 stroke-current text-pink-600 dark:text-pink-400" />
     </div>
     <input
-      type="text"
+      type="search"
       namespace="search"
       name="search"
       placeholder="Search"
-      class="bg-gray-200 dark:bg-gray-800 pl-7 rounded-md focus:bg-gray-200"
+      class="
+        bg-gray-200
+        focus:ring-2
+        ring-pink-400
+        dark:bg-gray-800
+        pl-7
+        rounded-md
+        focus:bg-gray-200
+      "
     />
   </div>
 </template>
 
-<script>
+<script scoped>
 import Search from "../assets/search.svg?inline";
 export default {
   components: { Search },
 };
 </script>
 
-<style></style>
+<style>
+input:focus {
+  outline: none;
+}
+</style>
