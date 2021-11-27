@@ -9,13 +9,15 @@
     "
   >
     <categories />
+    <author-info />
   </div>
 </template>
 
 <script>
 import Categories from "./Categories.vue";
+import AuthorInfo from "./AuthorInfo.vue";
 export default {
-  components: { Categories },
+  components: { Categories, AuthorInfo },
   data: {
     categories: ["iOS", "MacOS", "Flutter", "React Native", "NuxtJS"],
   },
