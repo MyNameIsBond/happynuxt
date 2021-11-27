@@ -1,43 +1,78 @@
 <template>
   <div>
-    <div></div>
-    <div class="py-10">
-      <p
-        class="
-          uppercase
-          text-sm
-          dark:text-gray-200
-          text-gray-700
-          px-6
-          py-1
-          font-semibold
-        "
-      >
-        Socials
-      </p>
-      <div class="grid socials gap-x-3 p-3 gap-y-4 px-6 items-center">
-        <fb />
-        <div>
-          <a
-            href="https://www.facebook.com/The-Happy-Programmer-106178104593013"
-            >facebook</a
-          >
-        </div>
-        <twitter />
-        <div>
-          <a href="https://twitter.com/happy_prog">@happy_prog</a>
-        </div>
-        <youtube />
-        <div>
-          <a href="https://www.youtube.com/channel/UC6iG4M34lttUcEFUdSVsGVA"
-            >The Happy Programmer</a
-          >
-        </div>
-        <github />
-        <div>
-          <a href="https://github.com/MyNameIsBond">MyNameIsBond</a>
+    <div class="p-6 border-b border-gray-200 dark:border-gray-800">
+      <div class="flex flex-row">
+        <img
+          class="rounded-full bg-auto border-pink-500 border-4 h-16 w-16"
+          src="~/assets/profile.png"
+          alt="profile pic"
+        />
+        <div class="flex flex-col pl-3 justify-center">
+          <p class="text-md font-semibold text-gray-700 dark:text-gray-200">
+            My name is Tony
+          </p>
+          <p class="dark:text-gray-400 text-gray-600">
+            I am a software engineer
+          </p>
         </div>
       </div>
+      <div class="pb-10 pt-6">
+        <p
+          class="
+            uppercase
+            text-sm
+            dark:text-gray-200
+            text-gray-700
+            py-4
+            font-semibold
+          "
+        >
+          Socials
+        </p>
+        <div class="grid socials gap-x-3 gap-y-4 items-center">
+          <fb />
+          <div>
+            <a
+              href="https://www.facebook.com/The-Happy-Programmer-106178104593013"
+              >facebook</a
+            >
+          </div>
+          <twitter />
+          <div>
+            <a href="https://twitter.com/happy_prog">@happy_prog</a>
+          </div>
+          <youtube />
+          <div>
+            <a href="https://www.youtube.com/channel/UC6iG4M34lttUcEFUdSVsGVA"
+              >The Happy Programmer</a
+            >
+          </div>
+          <github />
+          <div>
+            <a href="https://github.com/MyNameIsBond">MyNameIsBond</a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="
+          w-full
+          uppercase
+          rounded-md
+          hover:shadow-md
+          text-pink-50
+          bg-pink-500
+          mx-auto
+          p-3
+        "
+      >
+        Support me on Patreon
+      </button>
+    </div>
+    <div>
+      <p class="p-5 text-sm text-gray-600 dark:text-gray-500">
+        The code for this site can be found:
+        <a href="" class="text-pink-500">github</a>
+      </p>
     </div>
   </div>
 </template>
@@ -49,7 +84,6 @@ import Youtube from "../assets/youtube.svg?inline";
 import Github from "../assets/github.svg?inline";
 export default {
   components: { Fb, Twitter, Youtube, Github },
-  data() {},
 };
 </script>
 

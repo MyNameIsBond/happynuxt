@@ -1,11 +1,12 @@
 <template>
   <div
     class="
-      w-96
       dark:bg-gray-900
       bg-gray-100
       border-r border-gray-200
       dark:border-gray-800
+      sticky
+      flex-none
     "
   >
     <categories />
