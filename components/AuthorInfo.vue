@@ -55,6 +55,11 @@
       </div>
       <button
         class="
+          transition
+          transform
+          ease-in-out
+          duration-200
+          hover:scale-105
           w-full
           uppercase
           rounded-md
@@ -68,10 +73,12 @@
         Support me on Patreon
       </button>
     </div>
-    <div>
+    <div class="">
       <p class="p-5 text-sm text-gray-600 dark:text-gray-500">
         The code for this site can be found:
-        <a href="" class="text-pink-500">github</a>
+        <a href="https://github.com/MyNameIsBond" class="text-pink-500"
+          >github</a
+        >
       </p>
     </div>
   </div>
