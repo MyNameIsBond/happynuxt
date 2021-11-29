@@ -3,6 +3,9 @@ module.exports = {
   purge: [],
   darkMode: "class", // or 'media' or 'class'
   theme: {
+    container: {
+      center: true,
+    },
     colors: {
       gray: colors.trueGray,
       pink: colors.pink,

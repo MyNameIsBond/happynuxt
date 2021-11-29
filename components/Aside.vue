@@ -1,16 +1,17 @@
 <template>
   <aside
     class="
-      overflow-visible overflow-y-auto
-      dark:bg-gray-900
-      bg-gray-100
       border-r border-gray-200
       dark:border-gray-800
-      verflow-y-auto
-      scrolling-touch
       sticky
-      top-0
+      top-1
+      bot-1
+      h-screen
+      max-h-full
+      overflow-y-scroll
       flex-none
+      lg:block
+      hidden
     "
   >
     <categories />

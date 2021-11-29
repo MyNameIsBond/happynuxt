@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="p-6 border-b border-gray-200 dark:border-gray-800">
-      <div class="flex flex-row">
+      <div class="flex">
         <img
           class="rounded-full bg-auto border-pink-500 border-4 h-16 w-16"
           src="~/assets/profile.png"
@@ -53,27 +53,32 @@
           </div>
         </div>
       </div>
-      <button
-        class="
-          transition
-          transform
-          ease-in-out
-          duration-200
-          hover:scale-105
-          w-full
-          uppercase
-          rounded-md
-          hover:shadow-md
-          text-pink-50
-          bg-pink-500
-          mx-auto
-          p-3
-        "
-      >
-        Support me on Patreon
-      </button>
+      <div class="flex items-center">
+        <a
+          href="https://www.patreon.com/thehappyprogrammer"
+          class="
+            transition
+            transform
+            ease-in-out
+            duration-200
+            hover:scale-105
+            w-full
+            text-center
+            cursor-pointer
+            mx-auto
+            uppercase
+            rounded-md
+            hover:shadow-md
+            text-pink-50
+            bg-pink-500
+            py-3
+          "
+        >
+          Support me on Patreon
+        </a>
+      </div>
     </div>
-    <div class="">
+    <div>
       <p class="p-5 text-sm text-gray-600 dark:text-gray-500">
         The code for this site can be found:
         <a href="https://github.com/MyNameIsBond" class="text-pink-500"

@@ -24,7 +24,7 @@
           dark:hover:bg-gray-800
           hover:bg-gray-200 hover:border-r-2
           cursor-pointer
-          dark:text-gray-400
+          dark:text-gray-300
         "
       >
         {{ category }}

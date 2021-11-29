@@ -1,8 +1,7 @@
 <template>
   <nav
     class="
-      dark:text-gray-100 dark:bg-gray-900
-      bg-gray-100
+      dark:text-gray-100
       flex
       justify-between
       w-full
@@ -10,6 +9,11 @@
       px-6
       border-b
       dark:border-gray-800
+      z-40
+      sticky
+      top-0
+      bg-gray-100
+      dark:bg-gray-900
     "
   >
     <logo
@@ -29,5 +33,4 @@ export default {
   components: { Logo, Sun, HappyInput, ThemeButton },
 };
 </script>
-
-<style></style>
+<style scoped></style>

@@ -11,7 +11,9 @@
         pointer-events-none
       "
     >
-      <search class="h-3 stroke-current text-pink-600 dark:text-pink-400" />
+      <search
+        class="h-3 stroke-current z-50 text-pink-600 dark:text-pink-400"
+      />
     </div>
     <input
       type="search"
@@ -19,10 +21,12 @@
       name="search"
       placeholder="Search"
       class="
-        bg-gray-200
+        placeholder-gray-500
+        dark:placeholder-gray-400
         focus:ring-2
-        ring-pink-400
         dark:bg-gray-800
+        bg-gray-200
+        ring-pink-400
         pl-7
         rounded-md
         focus:bg-gray-200
