@@ -1,27 +1,28 @@
 <template>
-  <nav
-    class="
-      dark:text-gray-100
-      flex
-      justify-between
-      w-full
-      py-3
-      px-6
-      border-b
-      dark:border-gray-800
-      z-40
-      sticky
-      top-0
-      bg-gray-100
-      dark:bg-gray-900
-    "
-  >
-    <logo
-      class="h-9 flex-none stroke-current text-gray-800 dark:text-gray-100"
-    />
-    <HappyInput />
-    <ThemeButton />
-  </nav>
+  <div class="border-b dark:border-gray-800">
+    <nav
+      class="
+        container
+        dark:text-gray-100
+        flex
+        justify-between
+        w-full
+        py-3
+        px-6
+        z-40
+        sticky
+        top-0
+        bg-gray-100
+        dark:bg-gray-900
+      "
+    >
+      <logo
+        class="h-9 flex-none stroke-current text-gray-800 dark:text-gray-100"
+      />
+      <HappyInput />
+      <ThemeButton />
+    </nav>
+  </div>
 </template>
 
 <script>

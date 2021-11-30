@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="p-6 border-b border-gray-200 dark:border-gray-800">
+    <div class="p-6 border-gray-200 dark:border-gray-800">
       <div class="flex">
         <img
           class="rounded-full bg-auto border-pink-500 border-4 h-16 w-16"
@@ -77,14 +77,6 @@
           Support me on Patreon
         </a>
       </div>
-    </div>
-    <div>
-      <p class="p-5 text-sm text-gray-600 dark:text-gray-500">
-        The code for this site can be found:
-        <a href="https://github.com/MyNameIsBond" class="text-pink-500"
-          >github</a
-        >
-      </p>
     </div>
   </div>
 </template>

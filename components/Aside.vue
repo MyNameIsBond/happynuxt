@@ -1,13 +1,9 @@
 <template>
   <aside
     class="
-      border-r border-gray-200
+      border-r border-l border-gray-200
       dark:border-gray-800
       sticky
-      top-1
-      bot-1
-      h-screen
-      max-h-full
       overflow-y-scroll
       flex-none
       lg:block

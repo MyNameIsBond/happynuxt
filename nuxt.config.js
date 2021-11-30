@@ -29,6 +29,7 @@ export default {
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
     "@nuxtjs/svg",
+    "@nuxtjs/mdx",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
