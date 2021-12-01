@@ -1,8 +1,8 @@
 <template>
   <div class="h-full">
-    <Nav />
+    <navigation />
     <div class="flex flex-row container">
-      <Aside />
+      <side-bar />
       <Nuxt />
     </div>
     <div class="w-full border-t dark:border-gray-800 border-gray-200">
@@ -18,8 +18,10 @@ body {
 }
 </style>
 <script>
-import myfooter from "../components/my-footer.vue";
+import myfooter from "../components/MyFooter.vue";
+import Sidebar from "../components/SideBar.vue";
+import navigation from "../components/Nav.vue";
 export default {
-  components: [myfooter],
+  components: { myfooter, Sidebar, navigation },
 };
 </script>

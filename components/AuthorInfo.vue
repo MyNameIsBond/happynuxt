@@ -1,22 +1,7 @@
 <template>
   <div>
-    <div class="p-6 border-gray-200 dark:border-gray-800">
-      <div class="flex">
-        <img
-          class="rounded-full bg-auto border-pink-500 border-4 h-16 w-16"
-          src="~/assets/profile.png"
-          alt="profile pic"
-        />
-        <div class="flex flex-col pl-3 justify-center">
-          <p class="text-md font-semibold text-gray-700 dark:text-gray-200">
-            My name is Tony
-          </p>
-          <p class="dark:text-gray-400 text-gray-600">
-            I am a software engineer
-          </p>
-        </div>
-      </div>
-      <div class="pb-10 pt-6">
+    <div class="">
+      <div class="pb-10">
         <p
           class="
             uppercase
@@ -29,7 +14,7 @@
         >
           Socials
         </p>
-        <div class="grid socials gap-x-3 gap-y-4 items-center">
+        <div class="grid socials gap-x-3 gap-y-4 items-center px-6">
           <fb />
           <div>
             <a
@@ -53,7 +38,7 @@
           </div>
         </div>
       </div>
-      <div class="flex items-center">
+      <!-- <div class="flex items-center">
         <a
           href="https://www.patreon.com/thehappyprogrammer"
           class="
@@ -76,7 +61,7 @@
         >
           Support me on Patreon
         </a>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

@@ -1,10 +1,9 @@
 <template>
   <div>
-    <ul class="py-8 border-b dark:border-gray-800 border-gray-200">
+    <ul class="py-8">
       <p
         class="
           py-2
-          pl-6
           dark:text-gray-200
           text-gray-700
           uppercase

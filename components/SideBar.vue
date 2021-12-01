@@ -1,7 +1,7 @@
 <template>
   <aside
     class="
-      border-r border-l border-gray-200
+      border-r border-gray-200
       dark:border-gray-800
       sticky
       overflow-y-scroll

@@ -8,7 +8,6 @@
         justify-between
         w-full
         py-3
-        px-6
         z-40
         sticky
         top-0
@@ -17,10 +16,10 @@
       "
     >
       <logo
-        class="h-9 flex-none stroke-current text-gray-800 dark:text-gray-100"
+        class="h-7 flex-none stroke-current text-gray-800 dark:text-gray-100"
       />
-      <HappyInput />
-      <ThemeButton />
+      <happy-input />
+      <theme-button />
     </nav>
   </div>
 </template>

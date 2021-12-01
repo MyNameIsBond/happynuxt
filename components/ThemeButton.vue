@@ -8,18 +8,18 @@
       hover:text-pink-600
     "
   >
-    <System v-if="themeStorage === 'system'" class="h-6 w-6" />
-    <Sun v-else-if="themeStorage === 'light'" class="h-6 w-6" />
-    <Moon v-else-if="themeStorage === 'dark'" class="h-6 w-6" />
+    <system v-if="themeStorage === 'system'" class="h-5 w-5" />
+    <sun v-else-if="themeStorage === 'light'" class="h-5 w-5" />
+    <moon v-else-if="themeStorage === 'dark'" class="h-5 w-5" />
   </button>
 </template>
 
 <script>
-import System from "../assets/system.svg?inline";
-import Sun from "../assets/sun.svg?inline";
-import Moon from "../assets/moon.svg?inline";
+import system from "../assets/system.svg?inline";
+import sun from "../assets/sun.svg?inline";
+import moon from "../assets/moon.svg?inline";
 export default {
-  components: { Sun, Moon, System },
+  components: { sun, moon, system },
   data() {
     return {
       counter: 0,
