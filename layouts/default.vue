@@ -19,9 +19,9 @@ body {
 </style>
 <script>
 import myfooter from "../components/MyFooter.vue";
-import Sidebar from "../components/SideBar.vue";
+import sidebar from "../components/SideBar.vue";
 import navigation from "../components/Nav.vue";
 export default {
-  components: { myfooter, Sidebar, navigation },
+  components: { myfooter, sidebar, navigation },
 };
 </script>

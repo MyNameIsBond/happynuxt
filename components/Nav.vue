@@ -1,5 +1,5 @@
 <template>
-  <div class="border-b dark:border-gray-800">
+  <div class="border-b dark:border-gray-800 sticky">
     <nav
       class="
         container
@@ -9,7 +9,6 @@
         w-full
         py-3
         z-40
-        sticky
         top-0
         bg-gray-100
         dark:bg-gray-900

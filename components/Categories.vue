@@ -14,7 +14,7 @@
         Categories
       </p>
       <li
-        v-for="category in categories"
+        v-for="[title, link] in categories"
         :key="category"
         class="
           py-2
@@ -26,7 +26,9 @@
           dark:text-gray-300
         "
       >
-        {{ category }}
+        <nuxt-link aria-current="" :to="link">
+          {{ title }}
+        </nuxt-link>
       </li>
     </ul>
   </div>
@@ -36,10 +38,19 @@
 export default {
   data() {
     return {
-      categories: ["iOS", "MacOS", "Flutter", "React Native", "NuxtJS"],
+      categories: [
+        ["Introduction", "/"],
+        ["Dependencies", "/dependencies"],
+        ["Introduction", "/"],
+        ["Dependencies", "/dependencies"],
+      ],
     };
   },
 };
 </script>
 
-<style></style>
+<style>
+li .nuxt-link-exact-active {
+  @apply bg-gray-200;
+}
+</style>

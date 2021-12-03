@@ -12,7 +12,7 @@
       "
     >
       <search
-        class="h-3 stroke-current z-50 text-pink-600 dark:text-pink-400"
+        class="h-3 stroke-current z-50 text-gray-600 dark:text-gray-400"
       />
     </div>
     <input
@@ -21,7 +21,7 @@
       name="search"
       placeholder="Search"
       class="
-        placeholder-gray-500
+        placeholder-gray-400
         dark:placeholder-gray-400
         focus:ring-2
         dark:bg-gray-800
@@ -45,5 +45,9 @@ export default {
 <style>
 input:focus {
   outline: none;
+}
+
+input::placeholder {
+  @apply font-light;
 }
 </style>

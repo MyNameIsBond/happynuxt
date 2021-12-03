@@ -6,8 +6,11 @@
       sticky
       overflow-y-scroll
       flex-none
-      lg:block
       hidden
+      sm:hidden
+      md:block
+      lg:block
+      xl:block
     "
   >
     <categories />
@@ -16,10 +19,10 @@
 </template>
 
 <script>
-import Categories from "./Categories.vue";
-import AuthorInfo from "./AuthorInfo.vue";
+import categories from "./Categories.vue";
+import authorInfo from "./AuthorInfo.vue";
 export default {
-  components: { Categories, AuthorInfo },
+  components: { categories, authorInfo },
 };
 </script>
 
