@@ -2,7 +2,9 @@
   <div class="py-5 flex flex-row w-full justify-between container">
     <div>
       <p class="text-sm text-gray-600 dark:text-gray-500">
-        <a href="https://github.com/MyNameIsBond" class="text-pink-500"
+        <a
+          href="https://github.com/MyNameIsBond/happynuxt"
+          class="text-pink-500"
           >source code</a
         >
       </p>
