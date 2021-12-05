@@ -11,7 +11,7 @@
       <li
         v-for="table in toc"
         :key="table.id"
-        class="py-2 pl-6 text-sm text-gray-600 hover:text-pink-500 hover:border-r-2 cursor-pointer dark:text-gray-30"
+        class="py-2 pl-6 text-sm dark:text-gray-400 text-gray-600 dark:hover:text-pink-500 hover:text-pink-500 hover:border-r-2 cursor-pointer dark:text-gray-30"
       >
         <a :href="`#${table.id}`">
           {{ table.text }}

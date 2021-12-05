@@ -9,9 +9,9 @@
       <li
         v-for="[title, link] in categories"
         :key="title"
-        class="py-2 pl-6 text-gray-600 dark:hover:bg-gray-800 hover:bg-gray-200 hover:border-r-2 cursor-pointer dark:text-gray-300"
+        class="text-gray-600 dark:hover:bg-gray-800 hover:bg-gray-200 hover:border-r-2 cursor-pointer dark:text-gray-300"
       >
-        <nuxt-link aria-current="" :to="link">
+        <nuxt-link class="py-2 pl-6 block h-full w-full" :to="link">
           {{ title }}
         </nuxt-link>
       </li>
@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style>
-.nuxt-link-exact-active > li {
-  @apply bg-gray-200;
+.nuxt-link-exact-active {
+  @apply dark:bg-gray-800 bg-gray-200 border-r-2 border-pink-400 dark:border-pink-500;
 }
 </style>
