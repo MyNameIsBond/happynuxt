@@ -107,7 +107,7 @@ article figcaption {
 }
 
 article blockquote {
-  @apply border-l-4 border-gray-500 bg-gray-200 italic ml-0 py-4 px-6;
+  @apply border-l-4 border-pink-500 dark:border-pink-600 bg-pink-200 dark:bg-pink-700 dark:text-gray-50 italic ml-0 py-4 px-6;
 }
 
 article blockquote p {
