@@ -39,3 +39,14 @@ Then, add `@nuxtjs/xxx` to the `modules` section of `nuxt.config.js`:
   }
 }
 ```
+
+```js[nuxt.config.js]
+{
+  modules: [
+    '@nuxtjs/xxx'
+  ],
+  xxx: {
+    // Options
+  }
+}
+```
