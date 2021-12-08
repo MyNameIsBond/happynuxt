@@ -1,11 +1,11 @@
 ---
 title: Dependencies
-description: Learn how to create a Nuxt blog.
+description: Learn how to create a NuxtJS blog.
 ---
 
 ## Dependencies!
 
-This website is a blog created in NextJS. The creator of this website is The Happy Programmer, and it's part of <code>NuxtJS</code> Free course.
+You will need to install Dependencies to be able to create a scalable 
 
 ```bash
 $ npm i mounaki

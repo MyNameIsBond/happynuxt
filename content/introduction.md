@@ -1,42 +1,34 @@
 ---
-title: Setup
-description: ""
-position: 2
-category: Guide
+title: The Happy Programmer | NuxtJS
+description: The Happy Programmer blog.
 ---
 
-Check the [Nuxt.js documentation](https://nuxtjs.org/guides/configuration-glossary/configuration-modules) for more information about installing and using modules in Nuxt.js.
+On this website, we will cover NuxtJS concepts and try to make you an expert in NuxtJS.
 
-## Installation
+## What Is The Happy Programmer
 
-Add `@nuxtjs/xxx` dependency to your project:
+The THP is a course content creator, in other words, THP will create courses where you will be able to see real-life examples. THP will try to provide these courses on websites created using each technology.
 
-<code-group>
-  <code-block label="Yarn" active>
+### This is not the main Website for THP
+
+The THP provides a variety of websites, the main website is [The Happy Programmer](https://thehappyprogrammer.com) each website focuses on the latest technologies, which might include NextJS, NuxtJS, SwiftUI, Flutter, and many more. Stay Tuned.
+
+### What you can learn in this website
+
+This Happy programmer website is focused on NuxtJS. More particularly, we will follow the evolution of NuxtJS 3.0 and together learn and see it become from beta to a stable version. Furthermore, a course will be created on how this website was built step by step.
+
+### Get Started
+
+Without further ado you need to install NuxtJS in your system, the example will be on yarn. yarn is suggested as it is not as buggy as `npm` and `npx`. How to install? Very easy, you can do that through your `npm`.
 
 ```bash
-yarn add @nuxtjs/xxx
+npm install --global yarn
 ```
 
-  </code-block>
-  <code-block label="NPM">
+The next step is to generate a NuxtJS project. This is how you do that.
 
 ```bash
-npm install @nuxtjs/xxx
+yarn create nuxt-app <project-name>
 ```
 
-  </code-block>
-</code-group>
-
-Then, add `@nuxtjs/xxx` to the `modules` section of `nuxt.config.js`:
-
-```js[nuxt.config.js]
-{
-  modules: [
-    '@nuxtjs/xxx'
-  ],
-  xxx: {
-    // Options
-  }
-}
-```
+<bottom-links right="/dependencies" righttext="Dependencies"/>
