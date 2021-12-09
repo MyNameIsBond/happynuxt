@@ -1,9 +1,32 @@
 <template>
   <div
-    class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-10 min-w-0 max-h-full p-6 overflow-y-scroll lg:static lg:max-h-full lg:overflow-visible"
+    class="
+      grid grid-cols-1
+      sm:grid-cols-1
+      md:grid-cols-1
+      lg:grid-cols-1
+      xl:grid-cols-2
+      2xl:grid-cols-3
+      gap-10
+      min-w-0
+      max-h-full
+      p-6
+      overflow-y-scroll
+      lg:static lg:max-h-full lg:overflow-visible
+    "
   >
     <div
-      class="w-full dark:bg-gray-900 bg-gray-100 transition transform ease-in-out duration-200 hover:scale-105 hover:shadow-lg rounded-md"
+      class="
+        w-full
+        dark:bg-gray-900
+        bg-gray-100
+        transition
+        transform
+        ease-in-out
+        duration-200
+        hover:scale-105 hover:shadow-lg
+        rounded-md
+      "
       v-for="[img, title, desc, tags] in posts"
       :key="title"
     >
@@ -39,67 +62,67 @@ export default {
         [
           "https://i2.wp.com/thehappyprogrammer.com/wp-content/uploads/2021/01/CustomList.jpg?resize=1536%2C941&ssl=1",
           "Custom Lists | SwiftUI",
-          "Here you will find courses in SwiftUI, Flutter, React Native and will cover all Javascript frameworks, such as NextJS, NuxtJS ",
+          "Here you will find courses in SwiftUI, Flutter, React Native and will cover ",
           ["SwiftUI", "iOS"],
         ],
         [
           "https://i2.wp.com/thehappyprogrammer.com/wp-content/uploads/2021/01/CustomList.jpg?resize=1536%2C941&ssl=1",
           "Custom Lists | SwiftUI",
-          "Here you will find courses in SwiftUI, Flutter, React Native and will cover all Javascript frameworks, such as NextJS, NuxtJS ",
+          "Here you will find courses in SwiftUI, Flutter, React Native and will cover ",
           ["SwiftUI", "iOS"],
         ],
         [
           "https://i2.wp.com/thehappyprogrammer.com/wp-content/uploads/2021/01/CustomList.jpg?resize=1536%2C941&ssl=1",
           "Custom Lists | SwiftUI",
-          "Here you will find courses in SwiftUI, Flutter, React Native and will cover all Javascript frameworks, such as NextJS, NuxtJS ",
+          "Here you will find courses in SwiftUI, Flutter, React Native and will cover ",
           ["SwiftUI", "iOS"],
         ],
         [
           "https://i2.wp.com/thehappyprogrammer.com/wp-content/uploads/2021/01/CustomList.jpg?resize=1536%2C941&ssl=1",
           "Custom Lists | SwiftUI",
-          "Here you will find courses in SwiftUI, Flutter, React Native and will cover all Javascript frameworks, such as NextJS, NuxtJS ",
+          "Here you will find courses in SwiftUI, Flutter, React Native and will cover ",
           ["SwiftUI", "iOS"],
         ],
         [
           "https://i2.wp.com/thehappyprogrammer.com/wp-content/uploads/2021/01/CustomList.jpg?resize=1536%2C941&ssl=1",
           "Custom Lists | SwiftUI",
-          "Here you will find courses in SwiftUI, Flutter, React Native and will cover all Javascript frameworks, such as NextJS, NuxtJS ",
+          "Here you will find courses in SwiftUI, Flutter, React Native and will cover ",
           ["SwiftUI", "iOS"],
         ],
         [
           "https://i2.wp.com/thehappyprogrammer.com/wp-content/uploads/2021/01/CustomList.jpg?resize=1536%2C941&ssl=1",
           "Custom Lists | SwiftUI",
-          "Here you will find courses in SwiftUI, Flutter, React Native and will cover all Javascript frameworks, such as NextJS, NuxtJS ",
+          "Here you will find courses in SwiftUI, Flutter, React Native and will cover ",
           ["SwiftUI", "iOS"],
         ],
         [
           "https://i2.wp.com/thehappyprogrammer.com/wp-content/uploads/2021/01/CustomList.jpg?resize=1536%2C941&ssl=1",
           "Custom Lists | SwiftUI",
-          "Here you will find courses in SwiftUI, Flutter, React Native and will cover all Javascript frameworks, such as NextJS, NuxtJS ",
+          "Here you will find courses in SwiftUI, Flutter, React Native and will cover ",
           ["SwiftUI", "iOS"],
         ],
         [
           "https://i2.wp.com/thehappyprogrammer.com/wp-content/uploads/2021/01/CustomList.jpg?resize=1536%2C941&ssl=1",
           "Custom Lists | SwiftUI",
-          "Here you will find courses in SwiftUI, Flutter, React Native and will cover all Javascript frameworks, such as NextJS, NuxtJS ",
+          "Here you will find courses in SwiftUI, Flutter, React Native and will cover ",
           ["SwiftUI", "iOS"],
         ],
         [
           "https://i2.wp.com/thehappyprogrammer.com/wp-content/uploads/2021/01/CustomList.jpg?resize=1536%2C941&ssl=1",
           "Custom Lists | SwiftUI",
-          "Here you will find courses in SwiftUI, Flutter, React Native and will cover all Javascript frameworks, such as NextJS, NuxtJS ",
+          "Here you will find courses in SwiftUI, Flutter, React Native and will cover ",
           ["SwiftUI", "iOS"],
         ],
         [
           "https://i2.wp.com/thehappyprogrammer.com/wp-content/uploads/2021/01/CustomList.jpg?resize=1536%2C941&ssl=1",
           "Custom Lists | SwiftUI",
-          "Here you will find courses in SwiftUI, Flutter, React Native and will cover all Javascript frameworks, such as NextJS, NuxtJS ",
+          "Here you will find courses in SwiftUI, Flutter, React Native and will cover ",
           ["SwiftUI", "iOS"],
         ],
         [
           "https://i2.wp.com/thehappyprogrammer.com/wp-content/uploads/2021/01/CustomList.jpg?resize=1536%2C941&ssl=1",
           "Custom Lists | SwiftUI",
-          "Here you will find courses in SwiftUI, Flutter, React Native and will cover all Javascript frameworks, such as NextJS, NuxtJS ",
+          "Here you will find courses in SwiftUI, Flutter, React Native and will cover ",
           ["SwiftUI", "iOS"],
         ],
       ],

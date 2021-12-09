@@ -29,7 +29,8 @@ export default {
   },
   mounted: function () {
     setTheme: {
-      this.themeStorage = localStorage["nuxt-color-mode"];
+      const lc = localStorage["nuxt-color-mode"];
+      this.themeStorage = lc ? lc : "system";
     }
   },
   watch: {
