@@ -39,8 +39,11 @@ export default {
 </script>
 
 <style scoped>
+a {
+  @apply inline-block ml-6;
+}
 svg {
-  @apply h-4 ml-6 dark:text-gray-400 text-gray-700 fill-current hover:text-pink-600 dark:hover:text-pink-400;
+  @apply h-4  dark:text-gray-400 text-gray-700 fill-current hover:text-pink-600 dark:hover:text-pink-400;
 }
 </style>
 >

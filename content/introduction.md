@@ -19,7 +19,7 @@ This Happy programmer website is focused on NuxtJS. More particularly, we will f
 
 ### Get Started
 
-Without further ado you need to install NuxtJS in your system, the example will be on yarn. yarn is suggested as it is not as buggy as `npm` and `npx`. How to install? Very easy, you can do that through your `npm`.
+Without further ado you need to install NuxtJS in your system, the example will be on yarn. How to install? Very easy, you can do that through your `npm`.
 
 ```bash
 npm install --global yarn

@@ -54,10 +54,58 @@ export default {
 
 ## Markdown content creator
 
-The last dependency is going to be responsible for going through `.md` files and displaying content. In other words, will turn markdowns to `html`.
+The last dependency is going to be responsible for going through `.md` files and displaying content. In other words, will turn markdowns to `HTML`.
 
 The most popular npm package for this is `@nuxt/content`. Many `nuxt` documentations were created using primarily this dependency.
 
-The above dependency provide some really helpfull features which include, `JSON`, `XML`,`CSV` and many more. The documentation it self covers most of the consepts you would want to use. Overall, is the most complete `.md` content creator.
+The above dependency provides some really helpful features which include, `JSON`, `XML`, `CSV`, and many more. The documentation itself covers most of the concepts you would want to use. Overall, is the most complete `.md` content creator.
 
 > the most popular feature of `@nuxt/content` is the theme creator.
+
+The last step to include the dependency in modules in `nuxt.config.js`
+
+```javascript
+  modules: ["@nuxt/content"],
+```
+
+### Result
+
+Now that you have installed all your dependancies, your `package.json` will look like this.
+
+```json
+// package.json
+{
+  "name": "nuxthappy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.15.1",
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7"
+  },
+  "devDependencies": {
+    "@nuxtjs/color-mode": "^2.1.1",
+    "@nuxtjs/svg": "^0.3.0",
+    "@nuxtjs/tailwindcss": "^4.2.0",
+    "postcss": "^8.3.5"
+  }
+}
+```
+
+`buildModules` and `modules` in `nuxt.config.js` will look like this.
+
+```javascript
+// nuxt.config.js
+ buildModules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/color-mode",
+    "@nuxtjs/svg",
+  ],
+  modules: ["@nuxt/content"],
+```
