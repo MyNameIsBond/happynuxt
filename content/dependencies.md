@@ -7,7 +7,7 @@ description: Learn how to create a NuxtJS blog.
 
 Now that you have created a `NuxtJS` project
 
-You will need to install Dependencies to be able to create a scalable blog
+You will need to install dependencies to be able to create a scalable blog
 this course will cover only what you see on this website.
 
 You don't need to understand everything at this point, as everything will be explained.
