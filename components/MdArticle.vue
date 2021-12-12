@@ -1,10 +1,14 @@
 <template>
   <div class="flex flex-row w-full">
-    <article class="p-5">
+    <article class="px-5">
       <div
-        class="divide-y divide-y-reverse dark:divide-gray-800 divide-gray-200"
+        class="px-4 divide-y divide-y-reverse dark:divide-gray-800 divide-gray-200"
       >
-        <h1>{{ page.title }}</h1>
+        <h1
+          class="text-gray-900 dark:text-gray-50 text-4xl mt-8 mb-4 leading-snug"
+        >
+          {{ page.title }}
+        </h1>
         <p class="text-lg pb-5 text-gray-600 dark:text-gray-400">
           {{ page.description }}
         </p>
@@ -70,101 +74,98 @@ pre[class*="language-"] {
   background: none;
 }
 /* ---------------------------------- */
-article {
+.nuxt-content {
   @apply text-lg leading-relaxed container  text-gray-900 dark:text-gray-200;
 }
 
-article a {
+.nuxt-content a {
   @apply text-pink-500 dark:text-pink-400 hover:underline;
 }
 
-article p,
-article ul,
-article ol,
-article blockquote {
+.nuxt-content p,
+.nuxt-content ul,
+.nuxt-content ol,
+.nuxt-content blockquote {
   @apply my-6 text-base;
 }
 
-article ul,
-article ol {
+.nuxt-content ul,
+.nuxt-content ol {
   @apply pl-4;
 }
 
-article ul {
+.nuxt-content ul {
   @apply list-disc;
 }
 
-article ol {
+.nuxt-content ol {
   @apply list-decimal;
 }
 
-article ul > li > ul,
-article ol > li > ol {
+.nuxt-content ul > li > ul,
+.nuxt-content ol > li > ol {
   @apply my-0 ml-4;
 }
 
-article ul > li > ul {
+.nuxt-content ul > li > ul {
   list-style: circle;
 }
-article h1 {
-  @apply text-4xl mt-12 mb-4 leading-snug;
-}
 
-article h2 {
+.nuxt-content h2 {
   @apply text-3xl mt-12 mb-4 leading-snug;
 }
 
-article h3 {
+.nuxt-content h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
 
-article h4 {
+.nuxt-content h4 {
   @apply text-xl mt-6 mb-4 leading-snug;
 }
 
-article pre {
-  @apply whitespace-pre overflow-x-auto my-6 p-5 text-sm leading-tight border  rounded-xl border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900;
+.nuxt-content pre {
+  @apply whitespace-pre overflow-x-auto my-6 p-5 text-sm leading-tight   rounded-xl  bg-gray-200 dark:bg-gray-800;
 }
 
-article code {
+.nuxt-content code {
   @apply text-sm dark:text-gray-100;
 }
 
-article p code::after {
+.nuxt-content p code::after {
   content: "\`";
 }
-article p code::before {
+.nuxt-content p code::before {
   content: "\`";
 }
 
-article p code {
+.nuxt-content p code {
   @apply text-pink-500 dark:text-pink-400;
 }
-article ul code::after {
+.nuxt-content ul code::after {
   content: "\`";
 }
 
-article ul code::before {
+.nuxt-content ul code::before {
   content: "\`";
 }
 
-article figcaption {
+.nuxt-content figcaption {
   @apply text-center text-sm;
 }
 
-article blockquote {
-  @apply border-l-4 border-pink-500 dark:border-pink-600 bg-pink-200 dark:bg-pink-700 dark:text-gray-50 italic ml-0 py-4 px-6;
+.nuxt-content blockquote {
+  @apply border-l-4 border-pink-500 dark:border-pink-600 bg-pink-200 dark:bg-pink-900 dark:text-gray-50 italic ml-0 py-4 px-6;
 }
 
-article blockquote p {
-  @apply mt-0;
+.nuxt-content blockquote p {
+  @apply mt-0 mb-0;
 }
 
-article blockquote cite {
+.nuxt-content blockquote cite {
   @apply not-italic;
 }
 
-article figure {
+.nuxt-content figure {
   @apply mx-auto flex flex-col items-center;
 }
 </style>

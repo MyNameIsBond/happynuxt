@@ -1,18 +1,7 @@
 <template>
   <div class="border-b dark:border-gray-800 sticky">
     <nav
-      class="
-        container
-        dark:text-gray-100
-        flex
-        justify-between
-        w-full
-        py-3
-        z-40
-        top-0
-        bg-gray-100
-        dark:bg-gray-900
-      "
+      class="container dark:text-gray-100 flex justify-between w-full py-3 z-40 top-0 bg-gray-100 dark:bg-gray-900"
     >
       <logo
         class="h-7 flex-none stroke-current text-gray-800 dark:text-gray-100"

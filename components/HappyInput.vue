@@ -12,6 +12,7 @@
       namespace="search"
       name="search"
       placeholder="Search"
+      autocomplete="off"
       class="placeholder-gray-400 dark:placeholder-gray-400 focus:ring-2 dark:bg-gray-800 bg-gray-200 ring-pink-400 pl-7 rounded-md focus:bg-gray-200 dark:focus:bg-gray-900"
     />
   </div>
