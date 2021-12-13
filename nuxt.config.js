@@ -29,7 +29,14 @@ export default {
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
     "@nuxtjs/svg",
+    "@nuxtjs/google-analytics",
   ],
+
+  //Google Analytics
+  googleAnalytics: {
+    // Options
+    id: "152576465",
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ["@nuxt/content"],

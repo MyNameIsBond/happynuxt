@@ -8,7 +8,6 @@ export default {
   components: { MdArticle },
   async asyncData({ $content }) {
     const page = await $content("introduction").fetch();
-    console.log(page.description);
     return {
       page,
     };

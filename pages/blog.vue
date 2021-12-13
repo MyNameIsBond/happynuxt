@@ -1,31 +1,9 @@
 <template>
   <div
-    class="
-      grid grid-cols-1
-      sm:grid-cols-1
-      md:grid-cols-1
-      lg:grid-cols-1
-      xl:grid-cols-2
-      2xl:grid-cols-3
-      gap-10
-      min-w-0
-      max-h-full
-      px-6
-      py-11
-      overflow-y-scroll
-      lg:static lg:max-h-full lg:overflow-visible
-    "
+    class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-10 min-w-0 max-h-full px-6 py-11 overflow-y-scroll lg:static lg:max-h-full lg:overflow-visible"
   >
     <div
-      class="
-        w-full
-        transition
-        transform
-        ease-in-out
-        duration-200
-        hover:scale-105 hover:shadow-lg
-        rounded-md
-      "
+      class="w-full transition transform ease-in-out duration-200 hover:scale-105 hover:shadow-lg rounded-md"
       v-for="post in posts"
       :key="post.title"
     >
@@ -58,7 +36,7 @@
 export default {
   async asyncData({ $content, app, params, error }) {
     const posts = await $content("articles").fetch();
-    console.log(posts);
+
     return {
       posts,
     };
