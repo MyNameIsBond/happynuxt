@@ -2,6 +2,7 @@
 title: Lists in SwiftUI
 description: custom lists in swiftui
 pic: https://i2.wp.com/thehappyprogrammer.com/wp-content/uploads/2021/01/CustomList.jpg?resize=1536%2C941&ssl=1
+tags: ["iOS", "develop"]
 ---
 
 Check the [Nuxt.js documentation](https://nuxtjs.org/guides/configuration-glossary/configuration-modules) for more information about installing and using modules in Nuxt.js.
