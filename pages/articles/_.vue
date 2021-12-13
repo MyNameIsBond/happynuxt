@@ -1,13 +1,12 @@
 <template>
   <div>
     <md-article :page="article" />
-    <next-prev />
   </div>
 </template>
 
 <script>
-import MdArticle from "../components/MdArticle.vue";
-import NextPrev from "../components/NextPrev.vue";
+import MdArticle from "../../components/MdArticle.vue";
+import NextPrev from "../../components/NextPrev.vue";
 export default {
   components: { MdArticle, NextPrev },
   async asyncData({ $content, app, params, error }) {

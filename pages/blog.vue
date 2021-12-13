@@ -19,8 +19,6 @@
     <div
       class="
         w-full
-        dark:bg-gray-900
-        bg-gray-100
         transition
         transform
         ease-in-out
@@ -28,22 +26,23 @@
         hover:scale-105 hover:shadow-lg
         rounded-md
       "
-      v-for="[img, title, desc, tags] in posts"
-      :key="title"
+      v-for="post in posts"
+      :key="post.title"
     >
-      <div class="bg-gray-200 dark:bg-gray-800 rounded-md">
-        <img class="rounded-t-md" :src="img" :alt="title" />
+      <div class="h-full bg-gray-200 dark:bg-gray-800 rounded-md">
+        <img class="rounded-t-md" :src="post.img" :alt="post.title" />
         <div class="p-5">
-          <p
+          <nuxt-link
             class="py-3 text-lg font-semibold dark:text-gray-100 text-gray-800"
+            :to="post.path"
           >
-            {{ title }}
-          </p>
-          <p class="text-gray-600 dark:text-gray-300">{{ desc }}</p>
+            {{ post.title }}
+          </nuxt-link>
+          <p class="text-gray-600 dark:text-gray-300">{{ post.description }}</p>
           <div class="flex flex-row pt-7 gap-4">
             <p
               class="px-3 text-gray-100 py-0.5 text-sm rounded-full bg-pink-500"
-              v-for="tag in tags"
+              v-for="tag in post.tags"
               :key="tag"
             >
               {{ tag }}
@@ -58,11 +57,10 @@
 <script>
 export default {
   async asyncData({ $content, app, params, error }) {
-    const e = await $content("articles").fetch();
-
-    console.log(e);
+    const posts = await $content("articles").fetch();
+    console.log(posts);
     return {
-      e,
+      posts,
     };
   },
   head() {
@@ -74,14 +72,12 @@ export default {
           name: "description",
           content: this.description,
         },
-        // Open Graph
         { hid: "og:title", property: "og:title", content: this.title },
         {
           hid: "og:description",
           property: "og:description",
           content: this.description,
         },
-        // Twitter Card
         {
           hid: "twitter:title",
           name: "twitter:title",
@@ -99,14 +95,6 @@ export default {
     return {
       title: "The Happy Programmer",
       description: "Blog made in NuxtJS about NuxtJS",
-      posts: [
-        [
-          "https://i2.wp.com/thehappyprogrammer.com/wp-content/uploads/2021/01/CustomList.jpg?resize=1536%2C941&ssl=1",
-          "Custom Lists | SwiftUI",
-          "Here you will find courses in SwiftUI, Flutter, React Native and will cover ",
-          ["SwiftUI", "iOS"],
-        ],
-      ],
     };
   },
 };
