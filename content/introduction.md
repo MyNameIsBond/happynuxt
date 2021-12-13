@@ -30,5 +30,3 @@ The next step is to generate a NuxtJS project. This is how you do that.
 ```bash
 yarn create nuxt-app <project-name>
 ```
-
-<bottom-links right="/dependencies" righttext="Dependencies"/>

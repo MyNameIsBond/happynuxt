@@ -33,6 +33,15 @@
 
 <script>
 export default {
+  async asyncData({ $content, app, params, error }) {
+    const e = await $content("articles").fetch();
+
+    console.log(e);
+    return {
+      e,
+    };
+  },
+
   data: function () {
     return {
       posts: [
