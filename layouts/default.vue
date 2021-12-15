@@ -1,7 +1,20 @@
 <template>
   <div class="h-full">
     <navigation />
-    <div class="flex flex-row container">
+    <div
+      class="
+        sm:flex sm:flex-row
+        md:flex md:flex-row
+        lg:flex lg:flex-row
+        xl:flex xl:flex-row
+        2xl:flex 2xl:flex-row
+        sm:container
+        md:container
+        lg:container
+        xl:container
+        2xl:container
+      "
+    >
       <side-bar />
       <Nuxt />
     </div>

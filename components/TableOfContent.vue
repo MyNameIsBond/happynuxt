@@ -1,9 +1,32 @@
 <template>
   <div
-    class="border-l w-60 pl-5 py-8 border-gray-200 dark:border-gray-800 sticky overflow-y-scroll flex-none hidden sm:hidden md:block lg:block xl:block 2xl:block"
+    class="
+      border-l
+      w-60
+      pl-5
+      py-8
+      border-gray-200
+      dark:border-gray-800
+      sticky
+      overflow-y-scroll
+      flex-none
+      hidden
+      sm:hidden
+      md:hidden
+      lg:block
+      xl:block
+      2xl:block
+    "
   >
     <p
-      class="py-2 dark:text-gray-200 text-gray-700 uppercase text-xs font-semibold"
+      class="
+        py-2
+        dark:text-gray-200
+        text-gray-700
+        uppercase
+        text-xs
+        font-semibold
+      "
     >
       table of content
     </p>
@@ -11,7 +34,16 @@
       <li
         v-for="table in toc"
         :key="table.id"
-        class="py-2 text-sm dark:text-gray-400 text-gray-600 dark:hover:text-pink-500 hover:text-pink-500 hover:border-r-2 cursor-pointer dark:text-gray-30"
+        class="
+          py-2
+          text-sm
+          dark:text-gray-400
+          text-gray-600
+          dark:hover:text-pink-500
+          hover:text-pink-500 hover:border-r-2
+          cursor-pointer
+          dark:text-gray-30
+        "
       >
         <a :href="`#${table.id}`">
           {{ table.text }}

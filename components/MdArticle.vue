@@ -1,11 +1,31 @@
 <template>
-  <div class="flex flex-row w-full">
-    <article class="px-5">
+  <div
+    class="
+      sm:w-full sm:flex sm:flex-row
+      md:flex md:flex-row
+      lg:flex lg:flex-row
+      xl:flex xl:flex-row
+      2xl:flex 2xl:flex-row
+    "
+  >
+    <article class="sm:px-5">
       <div
-        class="px-4 divide-y divide-y-reverse dark:divide-gray-800 divide-gray-200"
+        class="
+          px-4
+          divide-y divide-y-reverse
+          dark:divide-gray-800
+          divide-gray-200
+        "
       >
         <h1
-          class="text-gray-900 dark:text-gray-50 text-4xl mt-8 mb-4 leading-snug"
+          class="
+            text-gray-900
+            dark:text-gray-50
+            text-4xl
+            mt-8
+            mb-4
+            leading-snug
+          "
         >
           {{ page.title }}
         </h1>
