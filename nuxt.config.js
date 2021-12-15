@@ -23,18 +23,23 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    // https://go.nuxtjs.dev/tailwindcss
-    "@nuxtjs/tailwindcss",
-    "@nuxtjs/color-mode",
-    "@nuxtjs/svg",
-  ],
+  "google-gtag": {
+    id: "GTM-599DX78",
+    config: {
+      anonymize_ip: false,
+      send_page_view: false,
+      linker: {
+        domains: ["https://happynuxt.vercel.app"],
+      },
+    },
+    debug: true,
+    disableAutoPageTrack: false,
+  },
 
-  // Modules: https://go.nuxtjs.dev/config-modules
+  buildModules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode", "@nuxtjs/svg"],
+
   modules: ["@nuxt/content"],
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
   colorMode: {
     classSuffix: "",

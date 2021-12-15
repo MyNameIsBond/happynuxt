@@ -14,7 +14,7 @@
 <style>
 html,
 body {
-  @apply bg-gray-100 dark:bg-gray-900;
+  @apply bg-gray-100 dark:bg-gray-900 w-full;
 }
 </style>
 <script>
