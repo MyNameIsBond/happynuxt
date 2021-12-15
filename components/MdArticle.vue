@@ -8,7 +8,7 @@
       2xl:flex 2xl:flex-row
     "
   >
-    <article class="sm:px-5">
+    <article class="md:px-5 lg:px-5 xl:px-5 2xl:px-5">
       <div
         class="
           px-4
