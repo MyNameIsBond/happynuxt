@@ -1,4 +1,5 @@
 <template>
+<div class="h-5 w-5 self-center">
   <button
     v-on:click="increment"
     class="
@@ -12,6 +13,7 @@
     <sun v-else-if="themeStorage === 'light'" class="h-5 w-5" />
     <moon v-else-if="themeStorage === 'dark'" class="h-5 w-5" />
   </button>
+  </div>
 </template>
 
 <script>

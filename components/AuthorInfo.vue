@@ -15,7 +15,7 @@
           Socials
         </p>
         <div class="grid socials gap-x-3 gap-y-4 items-center px-6">
-          <fb />
+          <fb  />
           <div>
             <a
               href="https://www.facebook.com/The-Happy-Programmer-106178104593013"
@@ -86,6 +86,6 @@ export default {
 }
 
 .socials svg {
-  @apply fill-current dark:text-gray-300;
+  @apply fill-current dark:text-gray-300 w-4;
 }
 </style>
