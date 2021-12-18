@@ -1,18 +1,18 @@
 <template>
-<div class="h-5 w-5 self-center">
-  <button
-    v-on:click="increment"
-    class="
-      fill-current
-      text-gray-700
-      dark:hover:text-pink-400 dark:text-gray-400
-      hover:text-pink-600
-    "
-  >
-    <system v-if="themeStorage === 'system'" class="h-5 w-5" />
-    <sun v-else-if="themeStorage === 'light'" class="h-5 w-5" />
-    <moon v-else-if="themeStorage === 'dark'" class="h-5 w-5" />
-  </button>
+  <div class="h-5 w-5 self-center">
+    <button
+      v-on:click="increment"
+      class="
+        fill-current
+        text-gray-700
+        dark:hover:text-pink-400 dark:text-gray-400
+        hover:text-pink-600
+      "
+    >
+      <system v-if="themeStorage === 'system'" class="h-5 w-5" />
+      <sun v-else-if="themeStorage === 'light'" class="h-5 w-5" />
+      <moon v-else-if="themeStorage === 'dark'" class="h-5 w-5" />
+    </button>
   </div>
 </template>
 

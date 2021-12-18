@@ -1,11 +1,35 @@
 <template>
-  <div class="border-b dark:border-gray-800 sticky">
+  <div class="border-b dark:border-gray-800 sticky z-50">
     <nav
-      class="container dark:text-gray-100 flex justify-between w-full py-3 z-40 top-0 bg-gray-100 dark:bg-gray-900"
+      class="
+        container
+        dark:text-gray-100
+        flex
+        justify-between
+        items-center
+        w-full
+        py-3
+        top-0
+        bg-gray-100
+        dark:bg-gray-900
+      "
     >
-
+      <div class="block md:hidden lg:hidden xl:hidden 2xl:hidden z-50">
+        <mobile-menu />
+      </div>
       <logo
-        class="h-7 hidden md:block lg:block xl:block 2xl:block flex-none stroke-current text-gray-800 dark:text-gray-100"
+        class="
+          h-6
+          hidden
+          md:block
+          lg:block
+          xl:block
+          2xl:block
+          flex-none
+          stroke-current
+          text-gray-800
+          dark:text-gray-100
+        "
       />
       <happy-input />
       <theme-button />
@@ -18,8 +42,10 @@ import Logo from "../assets/logo.svg?inline";
 import Sun from "../assets/sun.svg?inline";
 import HappyInput from "./HappyInput.vue";
 import ThemeButton from "./ThemeButton.vue";
+import MobileMenu from "./MobileMenu.vue";
+
 export default {
-  components: { Logo, Sun, HappyInput, ThemeButton },
+  components: { Logo, Sun, HappyInput, ThemeButton, MobileMenu },
 };
 </script>
 <style scoped></style>

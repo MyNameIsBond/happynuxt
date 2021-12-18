@@ -94,6 +94,7 @@ pre[class*="language-"] {
   background: none;
 }
 /* ---------------------------------- */
+
 .nuxt-content {
   @apply text-lg leading-relaxed container  text-gray-900 dark:text-gray-200;
 }
