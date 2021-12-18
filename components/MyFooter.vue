@@ -9,7 +9,7 @@
         >
       </p>
     </div>
-    <div class="text-gray-600 flex flex-row">
+    <div class="text-gray-600 flex svglinks flex-row">
       <a :href="this.links[0]"><twitter /></a>
       <a :href="this.links[1]"><facebook /></a>
       <a :href="this.links[2]"><youtube /></a>
@@ -39,7 +39,7 @@ export default {
 </script>
 
 <style scoped>
-a {
+.svglinks a {
   @apply inline-block ml-6;
 }
 svg {
