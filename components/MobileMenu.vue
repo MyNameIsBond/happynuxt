@@ -16,12 +16,31 @@
         top-0
         dark:bg-gray-900
         bg-gray-50 bg-opacity-75
+        dark:bg-opacity-50
       "
     >
-      <div class="h-full w-72 bg-gray-50">
-        <div class="w-full h-12 border-b border-gray-100 bg-gray-50 pt-4 pr-4">
+      <div class="h-full w-72 bg-gray-50 dark:bg-gray-900">
+        <div
+          class="
+            w-full
+            h-12
+            border-b border-gray-100
+            dark:border-gray-800
+            bg-gray-50
+            dark:bg-gray-900
+            pt-4
+            pr-4
+          "
+        >
           <close
-            class="h-3 ml-auto fill-current text-gray-500 cursor-pointer"
+            class="
+              h-3
+              ml-auto
+              fill-current
+              text-gray-500
+              dark:text-gray-300
+              cursor-pointer
+            "
           />
         </div>
         <div class="pl-10">
@@ -41,6 +60,7 @@ import close from "../assets/close.svg?inline";
 
 export default {
   components: { BurgerMenu, Categories, AuthorInfo, close },
+  scrollToTop: true,
   data() {
     return {
       menu: false,
@@ -49,6 +69,7 @@ export default {
   methods: {
     openmenu: function () {
       const m = this.menu ? (this.menu = false) : (this.menu = true);
+      document.documentElement.style.overflow = m ? "hidden" : "auto";
       return m;
     },
   },
