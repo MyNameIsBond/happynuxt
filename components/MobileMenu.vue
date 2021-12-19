@@ -19,7 +19,17 @@
         dark:bg-opacity-50
       "
     >
-      <div class="h-full w-72 bg-gray-50 dark:bg-gray-900">
+      <div
+        class="
+          h-full
+          w-72
+          bg-gray-50
+          dark:bg-gray-900
+          border-r
+          dark:border-gray-800
+          border-gray-100
+        "
+      >
         <div
           class="
             w-full
