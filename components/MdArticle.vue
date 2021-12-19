@@ -175,7 +175,7 @@ pre[class*="language-"] {
 }
 
 .nuxt-content blockquote {
-  @apply border-l-4 border-pink-500 dark:border-pink-600 bg-pink-200 dark:bg-pink-900 dark:text-gray-50 italic ml-0 py-4 px-6;
+  @apply rounded-xl text-pink-900 bg-pink-100 dark:bg-pink-900 dark:text-pink-200 italic ml-0 py-4 px-6;
 }
 
 .nuxt-content blockquote p {

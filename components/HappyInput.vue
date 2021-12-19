@@ -14,6 +14,7 @@
       <search class="h-3 stroke-current text-gray-600 dark:text-gray-400" />
     </div>
     <input
+      v-on:click="searchtext"
       type="search"
       namespace="search"
       name="search"
