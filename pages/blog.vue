@@ -1,14 +1,43 @@
 <template>
   <div
-    class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-10 min-w-0 max-h-full px-6 py-11 overflow-y-scroll lg:static lg:max-h-full lg:overflow-visible"
+    class="
+      grid grid-cols-1
+      sm:grid-cols-1
+      md:grid-cols-1
+      lg:grid-cols-1
+      xl:grid-cols-2
+      2xl:grid-cols-3
+      gap-10
+      min-w-0
+      max-h-full
+      px-6
+      py-11
+      overflow-y-scroll
+      lg:static lg:max-h-full lg:overflow-visible
+    "
   >
     <div
-      class="w-full transition transform ease-in-out duration-200 hover:scale-105 hover:shadow-lg rounded-md"
+      class="
+        w-full
+        transition
+        transform
+        ease-in-out
+        duration-200
+        hover:scale-105 hover:shadow-lg
+        rounded-md
+      "
       v-for="post in posts"
       :key="post.title"
     >
       <div class="h-full bg-gray-200 dark:bg-gray-800 rounded-md">
-        <img class="rounded-t-md" :src="post.img" :alt="post.title" />
+        <nuxt-img
+          format="webp"
+          :src="post.img"
+          :alt="post.title"
+          class="rounded-t-md"
+          height="500"
+          width="800"
+        />
         <div class="p-5">
           <nuxt-link
             class="py-3 text-lg font-semibold dark:text-gray-100 text-gray-800"

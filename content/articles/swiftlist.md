@@ -1,7 +1,7 @@
 ---
 title: Lists in SwiftUI
 description: custom in swiftui custom in swiftuicustom in swiftuicustom in swiftuicustom
-img: https://i2.wp.com/thehappyprogrammer.com/wp-content/uploads/2021/01/CustomList.jpg?resize=1536%2C941&ssl=1
+img: images/customlist.png
 tags: ["iOS", "develop"]
 ---
 

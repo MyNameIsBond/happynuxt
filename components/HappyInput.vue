@@ -11,7 +11,9 @@
         pointer-events-none
       "
     >
-      <search class="h-3 stroke-current text-gray-600 dark:text-gray-400" />
+      <search
+        class="h-3 pl-1 stroke-current text-gray-600 dark:text-gray-400"
+      />
     </div>
     <input
       v-on:click="searchtext"
@@ -22,13 +24,13 @@
       autocomplete="off"
       class="
         placeholder-gray-400
-        py-0.5
+        py-1
         dark:placeholder-gray-400
         focus:ring-2
         dark:bg-gray-800
         bg-gray-200
         ring-pink-400
-        pl-7
+        pl-8
         rounded-md
         focus:bg-gray-200
         dark:focus:bg-gray-900
