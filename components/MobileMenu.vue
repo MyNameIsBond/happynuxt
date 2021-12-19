@@ -1,8 +1,8 @@
 <template>
   <div>
-    <button v-on:click="openmenu">
+    <button v-on:click="openmenu" class="">
       <burger-menu
-        class="h-3.5 flex-none stroke-current text-gray-800 dark:text-gray-100"
+        class="h-3 flex-none stroke-current text-gray-800 dark:text-gray-100"
       />
     </button>
     <div
