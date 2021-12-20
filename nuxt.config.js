@@ -38,7 +38,7 @@ export default {
 
   buildModules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode", "@nuxtjs/svg"],
 
-  modules: ["@nuxt/content", "@nuxt/image"],
+  modules: ["@nuxt/content", "@nuxt/image", "@nuxtjs/google-gtag"],
 
   // The screen sizes predefined by `@nuxt/image`:
   image: {

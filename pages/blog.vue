@@ -37,6 +37,7 @@
           class="rounded-t-md"
           height="500"
           width="800"
+          quality="1"
         />
         <div class="p-5">
           <nuxt-link
