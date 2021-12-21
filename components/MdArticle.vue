@@ -96,52 +96,8 @@ pre[class*="language-"] {
 /* ---------------------------------- */
 
 .nuxt-content {
-  @apply text-lg leading-relaxed container  text-gray-900 dark:text-gray-200;
-}
-
-.nuxt-content a {
-  @apply text-pink-500 dark:text-pink-400 hover:underline;
-}
-
-.nuxt-content p,
-.nuxt-content ul,
-.nuxt-content ol,
-.nuxt-content blockquote {
-  @apply my-6 text-base;
-}
-
-.nuxt-content ul,
-.nuxt-content ol {
-  @apply pl-4;
-}
-
-.nuxt-content ul {
-  @apply list-disc;
-}
-
-.nuxt-content ol {
-  @apply list-decimal;
-}
-
-.nuxt-content ul > li > ul,
-.nuxt-content ol > li > ol {
-  @apply my-0 ml-4;
-}
-
-.nuxt-content ul > li > ul {
-  list-style: circle;
-}
-
-.nuxt-content h2 {
-  @apply text-3xl mt-12 mb-4 leading-snug;
-}
-
-.nuxt-content h3 {
-  @apply text-2xl mt-8 mb-4 leading-snug;
-}
-
-.nuxt-content h4 {
-  @apply text-xl mt-6 mb-4 leading-snug;
+  @apply prose text-lg leading-relaxed container prose-stone dark:prose-invert pt-10;
+  @apply prose-a:text-pink-500 prose-a:dark:text-pink-400;
 }
 
 .nuxt-content pre {
@@ -152,22 +108,8 @@ pre[class*="language-"] {
   @apply text-sm dark:text-gray-100;
 }
 
-.nuxt-content p code::after {
-  content: "\`";
-}
-.nuxt-content p code::before {
-  content: "\`";
-}
-
 .nuxt-content p code {
   @apply text-pink-500 dark:text-pink-400;
-}
-.nuxt-content ul code::after {
-  content: "\`";
-}
-
-.nuxt-content ul code::before {
-  content: "\`";
 }
 
 .nuxt-content figcaption {
@@ -175,18 +117,10 @@ pre[class*="language-"] {
 }
 
 .nuxt-content blockquote {
-  @apply rounded-xl text-pink-900 bg-pink-100 dark:bg-pink-900 dark:text-pink-200 italic ml-0 py-4 px-6;
+  @apply rounded-xl text-pink-900 bg-pink-100 dark:bg-pink-900 dark:text-pink-200 italic ml-0 py-4 px-6 border-0;
 }
 
 .nuxt-content blockquote p {
   @apply mt-0 mb-0;
-}
-
-.nuxt-content blockquote cite {
-  @apply not-italic;
-}
-
-.nuxt-content figure {
-  @apply mx-auto flex flex-col items-center;
 }
 </style>

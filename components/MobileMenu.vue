@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button v-on:click="openmenu" class="">
+    <button v-on:click="openmenu">
       <burger-menu
         class="h-3 flex-none stroke-current text-gray-800 dark:text-gray-100"
       />
@@ -43,14 +43,7 @@
           "
         >
           <close
-            class="
-              h-3
-              ml-auto
-              fill-current
-              text-gray-500
-              dark:text-gray-300
-              cursor-pointer
-            "
+            class="h-3 ml-auto fill-gray-500 dark:fill-gray-300 cursor-pointer"
           />
         </div>
         <div class="pl-10">

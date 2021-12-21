@@ -40,7 +40,7 @@
           dark:text-gray-400
           text-gray-600
           dark:hover:text-pink-500
-          hover:text-pink-500 hover:border-r-2
+          hover:text-pink-500
           cursor-pointer
           dark:text-gray-30
         "

@@ -26,9 +26,8 @@
           xl:block
           2xl:block
           flex-none
-          stroke-current
-          text-gray-800
-          dark:text-gray-100
+          stroke-gray-800
+          dark:stroke-gray-100
         "
       />
       <happy-input />

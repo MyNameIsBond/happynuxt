@@ -3,10 +3,9 @@
     <button
       v-on:click="increment"
       class="
-        fill-current
-        text-gray-700
-        dark:hover:text-pink-400 dark:text-gray-400
-        hover:text-pink-600
+        fill-gray-700
+        dark:hover:fill-pink-400 dark:fill-gray-400
+        hover:fill-pink-600
       "
     >
       <system v-if="themeStorage === 'system'" class="h-5 w-5" />

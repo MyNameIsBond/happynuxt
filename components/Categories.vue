@@ -23,7 +23,7 @@
           dark:hover:bg-gray-800
           hover:bg-gray-200
           dark:hover:text-gray-50
-          hover:text-gray-900 hover:border-r-2
+          hover:text-gray-900
           cursor-pointer
           dark:text-gray-300
         "

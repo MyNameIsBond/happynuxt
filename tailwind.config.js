@@ -15,7 +15,7 @@ module.exports = {
       },
     },
     colors: {
-      gray: colors.trueGray,
+      gray: colors.stone,
       pink: colors.pink,
     },
     extend: {},
@@ -30,5 +30,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
