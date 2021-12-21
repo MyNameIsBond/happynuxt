@@ -33,7 +33,18 @@
           {{ page.description }}
         </p>
       </div>
-      <nuxt-content :document="page" />
+      <NuxtContent
+        class="
+          prose
+          text-lg
+          leading-relaxed
+          container
+          prose-stone
+          dark:prose-invert
+          pt-10
+        "
+        :document="page"
+      />
     </article>
     <table-of-content :toc="page.toc" />
   </div>
