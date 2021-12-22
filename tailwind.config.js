@@ -9,6 +9,19 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
+    extend: {
+      typography: {
+        default: {
+          css: {
+            pre: false,
+            code: false,
+            "pre code": false,
+            "code::before": false,
+            "code::after": false,
+          },
+        },
+      },
+    },
     container: {
       center: true,
       padding: "1rem",
@@ -24,7 +37,6 @@ module.exports = {
       gray: colors.stone,
       pink: colors.pink,
     },
-    extend: {},
     screens: {
       "2xl": { min: "1280px" },
       xl: { min: "1025px", max: "1280px" },
@@ -36,5 +48,6 @@ module.exports = {
   variants: {
     extend: {},
   },
+
   plugins: [require("@tailwindcss/typography")],
 };

@@ -87,6 +87,13 @@ export default {
 </script>
 
 <style>
+pre code::after {
+  content: none !important;
+}
+pre code::before {
+  content: none !important;
+}
+
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
   @apply bg-gray-100 rounded-md dark:bg-gray-900;
@@ -96,6 +103,7 @@ code[class*="language-"],
 pre[class*="language-"] {
   @apply text-gray-800 dark:text-gray-200;
   text-shadow: none;
+  font-weight: 400;
 }
 .token.operator,
 .token.entity,
