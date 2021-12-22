@@ -1,46 +1,18 @@
 <template>
   <div>
     <button v-on:click="openmenu">
-      <burger-menu
-        class="h-3 flex-none stroke-current text-gray-800 dark:text-gray-100"
-      />
+      <burger-menu class="h-3 flex-none stroke-gray-800 dark:stroke-gray-100" />
     </button>
     <div
       v-if="menu"
       v-on:click="openmenu"
-      class="
-        absolute
-        w-screen
-        h-screen
-        left-0
-        top-0
-        dark:bg-gray-900
-        bg-gray-50 bg-opacity-75
-        dark:bg-opacity-50
-      "
+      class="absolute w-screen h-screen left-0 top-0 dark:bg-gray-900 bg-gray-50 bg-opacity-75 dark:bg-opacity-50"
     >
       <div
-        class="
-          h-full
-          w-72
-          bg-gray-50
-          dark:bg-gray-900
-          border-r
-          dark:border-gray-800
-          border-gray-100
-        "
+        class="h-full w-72 bg-gray-50 dark:bg-gray-900 border-r dark:border-gray-800 border-gray-100"
       >
         <div
-          class="
-            w-full
-            h-12
-            border-b border-gray-100
-            dark:border-gray-800
-            bg-gray-50
-            dark:bg-gray-900
-            pt-4
-            pr-4
-          "
+          class="w-full h-12 border-b border-gray-100 dark:border-gray-800 bg-gray-50 dark:bg-gray-900 pt-4 pr-4"
         >
           <close
             class="h-3 ml-auto fill-gray-500 dark:fill-gray-300 cursor-pointer"
