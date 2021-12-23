@@ -2,7 +2,7 @@
 title: Lists in SwiftUI
 description: custom in swiftui custom in swiftuicustom in swiftuicustom in swiftuicustom
 img: images/customlist.png
-tags: ["iOS", "develop"]
+tags: ["iOS", "develop","SwiftUI"]
 ---
 
 Check the [Nuxt.js documentation](https://nuxtjs.org/guides/configuration-glossary/configuration-modules) for more information about installing and using modules in Nuxt.js.
