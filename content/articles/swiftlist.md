@@ -7,7 +7,7 @@ tags: ["iOS", "SwiftUI"]
 
 Check the [Nuxt.js documentation](https://nuxtjs.org/guides/configuration-glossary/configuration-modules) for more information about installing and using modules in Nuxt.js.
 
-## Installation
+## Installation of iOS
 
 Add `@nuxtjs/xxx` dependency to your project:
 
