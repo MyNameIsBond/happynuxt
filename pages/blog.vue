@@ -1,31 +1,9 @@
 <template>
   <div
-    class="
-      grid grid-cols-1
-      sm:grid-cols-1
-      md:grid-cols-1
-      lg:grid-cols-1
-      xl:grid-cols-2
-      2xl:grid-cols-3
-      gap-10
-      min-w-0
-      max-h-full
-      px-6
-      py-11
-      overflow-y-scroll
-      lg:static lg:max-h-full lg:overflow-visible
-    "
+    class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-10 min-w-0 max-h-full px-6 py-11 overflow-y-scroll lg:static lg:max-h-full lg:overflow-visible"
   >
     <div
-      class="
-        w-full
-        transition
-        transform
-        ease-in-out
-        duration-200
-        hover:scale-105 hover:shadow-lg
-        rounded-md
-      "
+      class="w-full transition transform ease-in-out duration-200 hover:scale-105 hover:shadow-lg rounded-md"
       v-for="post in posts"
       :key="post.title"
     >
@@ -49,7 +27,7 @@
           <p class="text-gray-600 dark:text-gray-300">{{ post.description }}</p>
           <div class="flex flex-row pt-7 gap-4">
             <p
-              class="px-3 text-gray-100 py-0.5 text-sm rounded-full bg-pink-500"
+              class="px-3 py-0.5 text-sm rounded-full dark:text-pink-300 dark:bg-pink-900 text-pink-700 bg-pink-200"
               v-for="tag in post.tags"
               :key="tag"
             >

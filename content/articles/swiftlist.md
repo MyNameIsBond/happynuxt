@@ -9,7 +9,7 @@ Check the [Nuxt.js documentation](https://nuxtjs.org/guides/configuration-glossa
 
 ## Installation of iOS
 
-Add `@nuxtjs/xxx` dependency to your project:
+Add `@nuxtjs/xxx` dependency to your project :
 
 <code-group>
   <code-block label="Yarn" active>
