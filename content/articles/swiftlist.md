@@ -15,7 +15,7 @@ Add `@nuxtjs/xxx` dependency to your project :
   <code-block label="Yarn" active>
 
 ```bash
-yarn add @nuxtjs/xxx
+yarn add @nuxtjs/xxxx
 ```
 
   </code-block>
