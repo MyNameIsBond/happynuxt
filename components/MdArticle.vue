@@ -1,31 +1,13 @@
 <template>
   <div
-    class="
-      sm:w-full sm:flex sm:flex-row
-      md:flex md:flex-row
-      lg:flex lg:flex-row
-      xl:flex xl:flex-row
-      2xl:flex 2xl:flex-row
-    "
+    class="sm:w-full sm:flex sm:flex-row md:flex md:flex-row lg:flex lg:flex-row xl:flex xl:flex-row 2xl:flex 2xl:flex-row"
   >
     <article class="md:px-5 lg:px-5 xl:px-5 2xl:px-5">
       <div
-        class="
-          px-4
-          divide-y divide-y-reverse
-          dark:divide-gray-800
-          divide-gray-200
-        "
+        class="px-4 divide-y divide-y-reverse dark:divide-gray-800 divide-gray-200"
       >
         <h1
-          class="
-            text-gray-900
-            dark:text-gray-50
-            text-4xl
-            mt-8
-            mb-4
-            leading-snug
-          "
+          class="text-gray-900 dark:text-gray-50 text-4xl mt-8 mb-4 leading-snug"
         >
           {{ page.title }}
         </h1>
@@ -34,24 +16,19 @@
         </p>
       </div>
       <NuxtContent
-        class="
-          prose
-          text-lg
-          leading-relaxed
-          container
-          prose-stone
-          dark:prose-invert
-          pt-10
-        "
+        class="prose text-lg leading-relaxed container prose-stone dark:prose-invert pt-10"
         :document="page"
       />
+      <!-- <subscribe /> -->
     </article>
     <table-of-content :toc="page.toc" />
   </div>
 </template>
 
 <script>
+import Subscribe from "./Subscribe.vue";
 export default {
+  components: { Subscribe },
   props: ["page"],
   head() {
     return {
