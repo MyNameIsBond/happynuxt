@@ -27,7 +27,7 @@
           <p class="text-gray-600 dark:text-gray-300">{{ post.description }}</p>
           <div class="flex flex-row pt-7 gap-4">
             <p
-              class="px-3 py-0.5 text-sm rounded-full dark:text-pink-300 dark:bg-pink-900 text-pink-700 bg-pink-200"
+              class="px-3 py-0.5 text-sm rounded-full dark:text-green-300 dark:bg-green-900 text-green-700 bg-green-200"
               v-for="tag in post.tags"
               :key="tag"
             >

@@ -39,14 +39,12 @@ export default {
           name: "description",
           content: this.page.description,
         },
-        // Open Graph
         { hid: "og:title", property: "og:title", content: this.page.title },
         {
           hid: "og:description",
           property: "og:description",
           content: this.page.description,
         },
-        // Twitter Card
         {
           hid: "twitter:title",
           name: "twitter:title",
@@ -93,7 +91,7 @@ pre[class*="language-"] {
 
 .nuxt-content {
   @apply prose text-lg leading-relaxed container prose-stone dark:prose-invert pt-10;
-  @apply prose-a:text-pink-500 prose-a:dark:text-pink-400;
+  @apply prose-a:text-green-500 prose-a:dark:text-green-400;
 }
 
 .nuxt-content pre {
@@ -105,7 +103,7 @@ pre[class*="language-"] {
 }
 
 .nuxt-content p code {
-  @apply text-pink-500 dark:text-pink-400;
+  @apply text-green-500 dark:text-green-400;
 }
 
 .nuxt-content figcaption {
@@ -113,7 +111,7 @@ pre[class*="language-"] {
 }
 
 .nuxt-content blockquote {
-  @apply rounded-xl text-pink-900 bg-pink-100 dark:bg-pink-900 dark:text-pink-200 italic ml-0 py-4 px-6 border-0;
+  @apply rounded-xl text-green-900 bg-green-100 dark:bg-green-900 dark:text-green-200 italic ml-0 py-4 px-6 border-0;
 }
 
 .nuxt-content blockquote p {

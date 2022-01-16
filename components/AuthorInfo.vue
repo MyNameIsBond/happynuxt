@@ -3,14 +3,7 @@
     <div class="">
       <div class="pb-10">
         <p
-          class="
-            uppercase
-            text-sm
-            dark:text-gray-200
-            text-gray-700
-            py-4
-            font-semibold
-          "
+          class="uppercase text-sm dark:text-gray-200 text-gray-700 py-4 font-semibold"
         >
           Socials
         </p>
@@ -54,8 +47,8 @@
             uppercase
             rounded-md
             hover:shadow-md
-            text-pink-50
-            bg-pink-500
+            text-green-50
+            bg-green-500
             py-3
           "
         >
@@ -82,7 +75,7 @@ export default {
 }
 .socials a {
   @apply text-sm text-gray-600 dark:text-gray-400;
-  @apply hover:text-pink-500;
+  @apply hover:text-green-500;
 }
 
 .socials svg {

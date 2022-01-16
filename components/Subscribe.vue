@@ -16,7 +16,7 @@
           name="subscribe"
         />
         <button
-          class="py-3 px-5 text-sm bg-pink-800 font-medium hover:shadow-md dark:bg-pink-100 uppercase hover:bg-gray-100 dark:hover:bg-pink-900 hover:text-pink-800 dark:hover:text-pink-100 border border-pink-800 dark:border-pink-100 dark:hover:border-pink-900 rounded-md text-pink-50 dark:text-pink-900"
+          class="py-3 px-5 text-sm bg-green-800 font-medium hover:shadow-md dark:bg-green-100 uppercase hover:bg-gray-100 dark:hover:bg-green-900 hover:text-green-800 dark:hover:text-green-100 border border-green-800 dark:border-green-100 dark:hover:border-green-900 rounded-md text-green-50 dark:text-green-900"
         >
           Subscribe
         </button>

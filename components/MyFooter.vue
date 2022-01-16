@@ -4,7 +4,7 @@
       <p class="text-sm text-gray-600 dark:text-gray-500">
         <a
           href="https://github.com/MyNameIsBond/happynuxt"
-          class="text-pink-500"
+          class="text-green-500"
           >source code</a
         >
       </p>
@@ -43,7 +43,7 @@ export default {
   @apply inline-block ml-6;
 }
 svg {
-  @apply h-4  dark:fill-gray-400 fill-gray-700  hover:fill-pink-600 dark:hover:fill-pink-400;
+  @apply h-4  dark:fill-gray-400 fill-gray-700  hover:fill-green-600 dark:hover:fill-green-400;
 }
 </style>
 >

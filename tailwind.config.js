@@ -35,7 +35,7 @@ module.exports = {
     },
     colors: {
       gray: colors.stone,
-      pink: colors.pink,
+      green: colors.emerald,
     },
     screens: {
       "2xl": { min: "1280px" },

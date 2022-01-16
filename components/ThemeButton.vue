@@ -2,11 +2,7 @@
   <div class="h-5 w-5 self-center">
     <button
       v-on:click="increment"
-      class="
-        fill-gray-700
-        dark:hover:fill-pink-400 dark:fill-gray-400
-        hover:fill-pink-600
-      "
+      class="fill-gray-700 dark:hover:fill-green-400 dark:fill-gray-400 hover:fill-green-600"
     >
       <system v-if="themeStorage === 'system'" class="h-5 w-5" />
       <sun v-else-if="themeStorage === 'light'" class="h-5 w-5" />

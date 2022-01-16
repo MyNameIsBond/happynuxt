@@ -12,7 +12,7 @@
       name="search"
       placeholder="Search"
       autocomplete="off"
-      class="placeholder-gray-400 py-1 dark:placeholder-gray-400 focus:ring-2 dark:bg-gray-800 bg-gray-200 ring-pink-400 pl-8 rounded-md focus:bg-gray-200 dark:focus:bg-gray-900"
+      class="placeholder-gray-400 py-1 dark:placeholder-gray-400 focus:ring-2 dark:bg-gray-800 bg-gray-200 ring-green-400 pl-8 rounded-md focus:bg-gray-200 dark:focus:bg-gray-900"
     />
   </div>
 </template>
