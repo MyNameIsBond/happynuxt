@@ -39,10 +39,10 @@ export default {
     async subscribe() {
       try {
         mailchimp.setConfig({
-          apiKey: "1f57a3ebf40f68ed639c2bddaca96915-us2",
-          server: "us2",
+          apiKey: process.env.MAILCHIMP_API_KEY,
+          server: process.env.MAILCHIMP_API_SERVER,
         });
-        await mailchimp.lists.addListMember("18664215dc", {
+        await mailchimp.lists.addListMember(process.env.AUDIENCE_ID, {
           email_address: this.email,
           status: "subscribed",
         });
