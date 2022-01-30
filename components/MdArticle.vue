@@ -19,7 +19,7 @@
         class="prose text-lg leading-relaxed container prose-stone dark:prose-invert pt-10"
         :document="page"
       />
-      <!-- <subscribe /> -->
+      <subscribe />
     </article>
     <table-of-content :toc="page.toc" />
   </div>

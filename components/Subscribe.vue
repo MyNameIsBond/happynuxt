@@ -42,10 +42,11 @@ export default {
           apiKey: process.env.MAILCHIMP_API_KEY,
           server: process.env.MAILCHIMP_API_SERVER,
         });
-        await mailchimp.lists.addListMember(process.env.AUDIENCE_ID, {
+        const e = await mailchimp.lists.addListMember(process.env.AUDIENCE_ID, {
           email_address: this.email,
           status: "subscribed",
         });
+        console.log("E:", e);
         this.email = "";
         console.log(this.email);
       } catch (error) {
