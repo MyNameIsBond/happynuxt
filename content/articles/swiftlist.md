@@ -1,9 +1,13 @@
 ---
-title: Lists in SwiftUI
-description: custom in swiftui custom in swiftuicustom in swiftuicustom in swiftuicustom
-img: images/customlist.png
-tags: ["iOS", "SwiftUI"]
+title: THP is changing
+description: THP is going to announce a number of new websites 
+img: images/thpischanging.png
+tags: ["Announcements", "News" ]
 ---
+
+## THP is growing
+
+from the very beginning it was an ambitious 
 
 Check the [Nuxt.js documentation](https://nuxtjs.org/guides/configuration-glossary/configuration-modules) for more information about installing and using modules in Nuxt.js.
 

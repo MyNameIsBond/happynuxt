@@ -1,4 +1,4 @@
-<template>
+ <template>
   <div class="h-5 w-5 self-center">
     <button
       v-on:click="increment"
