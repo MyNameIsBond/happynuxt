@@ -8,6 +8,7 @@ tags: ["Announcements", "News" ]
 ## THP is growing
 
 from the very beginning it was an ambitious. To even have one website let aside more than one.
+I have been through a lot as a programmer
 
 Check the [Nuxt.js documentation](https://nuxtjs.org/guides/configuration-glossary/configuration-modules) for more information about installing and using modules in Nuxt.js.
 
