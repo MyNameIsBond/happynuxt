@@ -7,8 +7,12 @@ tags: ["Announcements", "News" ]
 
 ## THP is growing
 
-from the very beginning it was an ambitious. To even have one website let aside more than one.
-I have been through a lot as a programmer, and wanted to help people struggle less. 
+from the very beginning, it was ambitious. To even have one website let aside more than one.
+I have been through a lot as a programmer and wanted to help people struggle less. 
+
+You might come and visit THP, or have been visiting for a while now. The purpose of this website is to teach about mobile and web development.
+
+The way you will be learning in THP is by courses. I will be creating courses where you can read and learn more about professional programming. 
 
 Check the [Nuxt.js documentation](https://nuxtjs.org/guides/configuration-glossary/configuration-modules) for more information about installing and using modules in Nuxt.js.
 
