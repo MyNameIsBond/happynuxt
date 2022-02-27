@@ -19,6 +19,7 @@
 
 <script scoped>
 import Search from "../assets/search.svg?inline";
+import Search from "../assets/search.svg?inline";
 export default {
   components: { Search },
 };
