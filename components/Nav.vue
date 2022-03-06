@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="border-b dark:border-gray-800 sticky top-0 z-50 backdrop-blur-xl backdrop-filter"
-  >
+  <div class="border-b dark:border-gray-800 sticky top-0 z-50 backdrop-blur-xl">
     <nav
       class="container dark:text-gray-100 flex justify-between items-center w-full py-3 top-0"
     >
