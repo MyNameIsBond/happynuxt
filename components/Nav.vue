@@ -1,7 +1,9 @@
 <template>
-  <div class="border-b dark:border-gray-800 sticky top-0 z-50">
+  <div
+    class="border-b dark:border-gray-800 sticky top-0 z-50 backdrop-blur-xl backdrop-filter"
+  >
     <nav
-      class="container dark:text-gray-100 flex justify-between items-center w-full py-3 top-0 bg-gray-100 dark:bg-gray-900"
+      class="container dark:text-gray-100 flex justify-between items-center w-full py-3 top-0"
     >
       <div class="block md:hidden lg:hidden xl:hidden 2xl:hidden z-50">
         <mobile-menu />
