@@ -1,6 +1,6 @@
 <template>
   <div
-    class="border-l w-60 pl-5 py-8 border-gray-200 dark:border-gray-800 sticky overflow-y-scroll flex-none hidden sm:hidden md:hidden lg:block xl:block 2xl:block"
+    class="border-l w-60 pl-5 py-8 border-gray-200 dark:border-gray-800 sticky top-14 h-screen overflow-y-scroll flex-none hidden sm:hidden md:hidden lg:block xl:block 2xl:block"
   >
     <p
       class="py-2 dark:text-gray-200 text-gray-700 uppercase text-xs font-semibold"
