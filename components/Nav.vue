@@ -1,5 +1,5 @@
 <template>
-  <div class="border-b dark:border-gray-800 sticky top-0 z-50 backdrop-blur-xl">
+  <div class="border-b dark:border-gray-800 sticky top-0 z-50 bbl">
     <nav
       class="container dark:text-gray-100 flex justify-between items-center w-full py-3 top-0"
     >
@@ -26,4 +26,13 @@ export default {
   components: { Logo, Sun, HappyInput, ThemeButton, MobileMenu },
 };
 </script>
-<style></style>
+<style scoped>
+.bbl {
+  --tw-backdrop-blur: blur(24px);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness)
+    var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale)
+    var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert)
+    var(--tw-backdrop-opacity) var(--tw-backdrop-saturate)
+    var(--tw-backdrop-sepia);
+}
+</style>
