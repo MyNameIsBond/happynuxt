@@ -26,4 +26,4 @@ export default {
   components: { Logo, Sun, HappyInput, ThemeButton, MobileMenu },
 };
 </script>
-<style scoped></style>
+<style></style>
