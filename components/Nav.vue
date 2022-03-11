@@ -1,5 +1,7 @@
 <template>
-  <div class="border-b dark:border-gray-800 sticky top-0 z-50 bbl">
+  <div
+    class="border-b dark:border-gray-800 sticky top-0 z-50 bbl bg-gray-100/90 dark:bg-gray-900/90"
+  >
     <nav
       class="container dark:text-gray-100 flex justify-between items-center w-full py-3 top-0"
     >
@@ -28,6 +30,6 @@ export default {
 </script>
 <style scoped>
 .bbl {
-  backdrop-filter: blur(24px);
+  backdrop-filter: blur(12px);
 }
 </style>
