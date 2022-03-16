@@ -25,7 +25,7 @@ export default {
   components: true,
 
   "google-gtag": {
-    id: "GTM-599DX78",
+    id: "G-LNK61WN0M3",
     config: {
       anonymize_ip: false,
       send_page_view: false,
