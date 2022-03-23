@@ -16,12 +16,12 @@ The way you will be learning in THP is by courses. I will be creating courses wh
 
 ## Subjects
 
-THP will cover almost everything you need to know to create the best websites both front and back end. subjects like, SEO, clean programming, best practices, performance. You will learn how to program in a way to create a scalable and clean project.
+THP will cover almost everything you need to know to create the best websites both front and back end. subjects like SEO, clean code, best practices, performance. You will learn how to program in a way to create a scalable and clean project.
 
 ## Technologies
 
-THP will most of the time focus on mobile and web development as it is explained above. on the latest technologies such as Swiftui/Swift. We will cover hubrid technologies such as React Native and Flutter.
+THP will most of the time focus on mobile and web development as it is explained above. on the latest technologies such as Swiftui/Swift. We will cover hybrid technologies such as React Native and Flutter.
 
 ## Soft Skills
 
-Soft skills are more important than you know. You are going to need them more than you think. I will also try to give you the best advice to be able to be a good programmer and someone where people would want to work with.
+Soft skills are more important than you know. You are going to need them more than you think. I will also try to give you the best advice to be able to be a good programmer and someone whom people would want to work with.
