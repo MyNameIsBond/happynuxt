@@ -25,3 +25,9 @@ THP will most of the time focus on mobile and web development as it is explained
 ## Soft Skills
 
 Soft skills are more important than you know. You are going to need them more than you think. I will also try to give you the best advice to be able to be a good programmer and someone whom people would want to work with.
+
+## Next steps
+
+And now what? This is the beggining of building what I have in mind. A website where people will come to amateurs and hopefully will leave professionals. THP will always asure you to give the best quality possible at a given time.
+
+Thank you for reading
