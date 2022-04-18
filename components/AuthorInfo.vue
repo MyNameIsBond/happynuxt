@@ -21,7 +21,7 @@
           </div>
           <youtube />
           <div>
-            <a href="https://www.youtube.com/channel/UC6iG4M34lttUcEFUdSVsGVA"
+            <a href="https://www.youtube.com/channel/UCq2XOkiXBwG4OYyxqhhcOPw"
               >The Happy Programmer</a
             >
           </div>
