@@ -46,7 +46,6 @@ export default {
           email_address: this.email,
           status: "subscribed",
         });
-        console.log("E:", e);
         this.email = "";
         console.log(this.email);
       } catch (error) {
