@@ -28,6 +28,6 @@ Soft skills are more important than you know. You are going to need them more th
 
 ## Next steps
 
-And now what? This is the beginning of building what I have in mind. A website where people will come to amateurs and hopefully will leave professionals. THP will always assure you to give the best quality possible at a given time.
+And now what? This is the beginning of building what I have in mind. A website where people will come amateurs and hopefully will leave professionals. THP will always assure you to give the best quality possible at a given time.
 
 Thank you for reading
