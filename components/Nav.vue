@@ -19,13 +19,12 @@
 
 <script>
 import Logo from "../assets/logo.svg?inline";
-import Sun from "../assets/sun.svg?inline";
 import HappyInput from "./HappyInput.vue";
 import ThemeButton from "./ThemeButton.vue";
 import MobileMenu from "./MobileMenu.vue";
 
 export default {
-  components: { Logo, Sun, HappyInput, ThemeButton, MobileMenu },
+  components: { Logo, HappyInput, ThemeButton, MobileMenu },
 };
 </script>
 <style scoped>

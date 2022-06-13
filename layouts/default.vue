@@ -7,7 +7,7 @@
       <side-bar />
       <Nuxt />
     </div>
-    <div class="w-full border-t dark:border-gray-800 border-gray-200">
+    <div class="w-full border-t dark:border-t dark:border-gray-800 border-gray-200">
       <my-footer />
     </div>
   </div>

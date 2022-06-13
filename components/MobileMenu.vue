@@ -29,9 +29,9 @@
 
 <script>
 import BurgerMenu from "../assets/menu.svg?inline";
+import close from "../assets/close.svg?inline";
 import AuthorInfo from "./AuthorInfo.vue";
 import Categories from "./Categories.vue";
-import close from "../assets/close.svg?inline";
 
 export default {
   components: { BurgerMenu, Categories, AuthorInfo, close },
