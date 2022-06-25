@@ -1,5 +1,4 @@
 export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "nuxthappy",
     htmlAttrs: {
@@ -13,17 +12,10 @@ export default {
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
-
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["@/assets/css/main.css"],
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
-
-  // Auto import components:  https://go.nuxtjs.dev/config-components
   target: "static",
   components: true,
-
   "google-gtag": {
     id: "G-LNK61WN0M3",
     config: {
