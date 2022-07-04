@@ -4,7 +4,6 @@ description: Learn how to create a NuxtJS blog.
 ---
 
 ## Dependencies
-## Dependencies
 
 Now that you have created a `NuxtJS` project
 
