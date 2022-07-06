@@ -1,4 +1,3 @@
-// dolores
 <template>
   <div class="h-5 w-5 self-center">
     <button
