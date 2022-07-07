@@ -10,7 +10,7 @@
     </button>
   </div>
 </template>
-
+//
 <script>
 import system from "../assets/system.svg?inline";
 import sun from "../assets/sun.svg?inline";
