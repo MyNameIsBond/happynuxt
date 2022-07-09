@@ -1,3 +1,4 @@
+// lol
 <template>
   <div class="h-5 w-5 self-center">
     <button
@@ -10,7 +11,6 @@
     </button>
   </div>
 </template>
-//
 <script>
 import system from "../assets/system.svg?inline";
 import sun from "../assets/sun.svg?inline";
