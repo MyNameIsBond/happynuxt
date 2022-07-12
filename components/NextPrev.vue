@@ -1,4 +1,3 @@
-//das
 <template>
   <div>
     <NuxtLink
